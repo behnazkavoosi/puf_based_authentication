@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="bundle.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 style = "font-family: times new roman"> <strong> Puf-based Authentication </strong> </h1>
+
+          <form id="getChallenge">
+            <div class="form-group">
+            </div>
+            <button type="submit" class="btn btn-primary" style = "font-family: times new roman; font-size: 14pt;">View First Challenge</button>
+          </form>
+          <div style = "font-family: times new roman; font-size: 14pt;">Challenge: <span id="getChallengeResult"></span></div>
+
+          <form id="helperDataExtraction">
+            <div class="form-group">
+              <label for="helperDataExtractionInput" style = "font-family: times new roman; font-size: 14pt;" >Enter a number (more than 3)</label>
+              <input style = "font-family: times new roman; font-size: 13pt;" id="helperDataExtractionInput" type="number" class="form-control" style = "font-family: times new roman; font-size: 14pt;"></input>
+            </div>
+            <button type="submit" class="btn btn-primary" style = "font-family: times new roman; font-size: 14pt;">Submit</button>
+          </form>
+          <div style = "font-family: times new roman; font-size: 14pt;"><span id="helperDataResult"></span></div>
+
+	  <form id="helperDataView">
+            <div class="form-group">
+            </div>
+            <button type="submit" class="btn btn-primary" style = "font-family: times new roman; font-size: 14pt;">View Helper Data</button>
+          </form>
+          <div style = "font-family: times new roman; font-size: 14pt;">Helper Data: <span id="helperDataViewResult"></span></div>
+
+          <form id="deltaCalculation">
+            <div class="form-group">
+              <label for="new-response" style = "font-family: times new roman; font-size: 14pt;">Enter your new Response</label>
+              <input style = "font-family: times new roman; font-size: 13pt;" id="new-response" type ="text" class="form-control"></input>
+            </div>
+            <div class="form-group">
+              <label for="new-challenge" style = "font-family: times new roman; font-size: 14pt;">Enter your new Challenge</label>
+              <input style = "font-family: times new roman; font-size: 13pt;" id="new-challenge" type ="text" class="form-control"></input>
+            </div>
+            <div class="form-group">
+              <label for="xor-response" style = "font-family: times new roman; font-size: 14pt;">Enter the XOR Response</label>
+              <input style = "font-family: times new roman; font-size: 13pt;" id="xor-response" type ="text" class="form-control"></input>
+            </div>
+            <div class="form-group">
+              <label for="userId" style = "font-family: times new roman; font-size: 14pt;">Enter your Id</label>
+              <input style = "font-family: times new roman; font-size: 13pt;" id="userId" type ="number" class="form-control"></input>
+            </div>
+            <button type="submit" class="btn btn-primary" style = "font-family: times new roman; font-size: 14pt;">Submit</button>
+          </form>
+          <div style = "font-family: times new roman; font-size: 14pt;"><span id="deltaCalculationResult"></span></div>
+	  
+	  <form id="delta">
+            <div class="form-group">
+            </div>
+            <button type="submit" class="btn btn-primary" style = "font-family: times new roman; font-size: 14pt;">View Checksum Defficiency</button>
+          </form>
+	    <div style = "font-family: times new roman; font-size: 14pt;">Checksum Defficiency: <span id="deltaResult"></span></div>
+
+          <form id="pufCorrection">
+            <div class="form-group">
+            </div>
+            <button type="submit" class="btn btn-primary" style = "font-family: times new roman; font-size: 14pt;">Correct PUF Response</button>
+          </form>
+          <div style = "font-family: times new roman; font-size: 14pt;"><span style = "font-family: times new roman; font-size: 14pt;"id="pufCorrectionResult" ></span></div>
+
+	  <form id="viewPufCorrection">
+            <div class="form-group">
+            </div>
+            <button type="submit" class="btn btn-primary" style = "font-family: times new roman; font-size: 14pt;">View Corrected Response</button>
+          </form>
+	    <div style = "font-family: times new roman; font-size: 14pt;">Corrected Response: <span id="viewPufCorrectionResult"></span></div>
+
+          <form id="pufChecking">
+            <div class="form-group">
+            </div>
+            <button type="submit" class="btn btn-primary" style = "font-family: times new roman; font-size: 14pt;">Check PUF Response</button>
+          </form>
+          <div style = "font-family: times new roman; font-size: 14pt;"><span id="pufCheckingResult"></span></div></br></br></br>
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
