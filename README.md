@@ -10,15 +10,15 @@ If you use this code, we kindly request that you cite the following paper:
 
 <div style="background-color: #F7F7F7; padding: 10px; border: 1px solid #CCCCCC;">
 <pre>
-  @INPROCEEDINGS{9260862,
-  author={Ghafi, Behnaz Kavoosi and Maybodi, Babak Mazloom-Nezhad},
-  booktitle={2020 28th Iranian Conference on Electrical Engineering (ICEE)}, 
-  title={A Distributed PUF-Based Mutual Authentication System with Self-Correction}, 
-  year={2020},
-  volume={},
-  number={},
-  pages={1-5},
-  doi={10.1109/ICEE50131.2020.9260862}}
+@INPROCEEDINGS{9260862,
+author={Ghafi, Behnaz Kavoosi and Maybodi, Babak Mazloom-Nezhad},
+booktitle={2020 28th Iranian Conference on Electrical Engineering (ICEE)}, 
+title={A Distributed PUF-Based Mutual Authentication System with Self-Correction}, 
+year={2020},
+volume={},
+number={},
+pages={1-5},
+doi={10.1109/ICEE50131.2020.9260862}}
 </pre>
 </div>
 
