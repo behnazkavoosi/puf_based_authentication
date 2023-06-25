@@ -1,3 +1,5 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
 @INPROCEEDINGS{9260862,
   author={Ghafi, Behnaz Kavoosi and Maybodi, Babak Mazloom-Nezhad},
   booktitle={2020 28th Iranian Conference on Electrical Engineering (ICEE)}, 
